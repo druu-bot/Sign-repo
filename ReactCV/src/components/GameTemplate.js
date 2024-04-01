@@ -9,10 +9,10 @@ import { Modal } from "@material-ui/core";
 import { CircularProgress, Slider, Switch } from "@mui/material";
 import * as tf from "@tensorflow/tfjs";
 
-import aslImg from "../../src/assets/images/ASL_Alphabet.png";
-import boyImg from "../../src/assets/images/boy-hand.png";
-import tick from "../../src/assets/images/checked.png";
-import studyIcon from "../../src/assets/images/notebook.png";
+import aslImg from "../assets/images/ASL_DICTIONARY.webp"
+import boyImg from "../assets/images/translator.png";
+import tick from "../assets/images/icons8-tick-512.png";
+import studyIcon from "../assets/images/icons8-dictionary-100.png";
 import DSButton from "../components/DSButton";
 import Footer from "../components/Footer";
 import TextBubble from "../components/TextBubble";
@@ -180,7 +180,7 @@ const StyledWebcam = styled(Webcam)`
   }
 `;
 const StyledAslImg = styled.img`
-  height: 80%;
+  height: 60%;
   max-width: 90%;
 `;
 const StyledAslModal = styled(Modal)`

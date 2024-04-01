@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-import learnSignLogo from "../../src/assets/images/learnSignLogo.png";
+import learnSignLogo from "../../src/assets/images/Logo.png";
 import menuIcon from "../../src/assets/icons/menu.png";
 import closeIcon from "../../src/assets/icons/close.png";
 
@@ -76,12 +76,12 @@ function NavBar() {
   return (
     <StyledAppBar>
       <LogoContainer>
-        <StyledLogo src={learnSignLogo} alt="LearnSign Logo" />
-        <StyledText>Learnsign</StyledText>
+        <StyledLogo src={learnSignLogo} alt="Logo" />
+        <StyledText>Sign Learning</StyledText>
       </LogoContainer>
       <StyledNav>
-        <StyledLink to="/wordgame">WordGame</StyledLink>
-        <StyledLink to="/baseline">AlphabetGame</StyledLink>
+        <StyledLink to="/wordgame">Word Game</StyledLink>
+        <StyledLink to="/baseline">Alphabet Game</StyledLink>
         <MobileMenuIcon src={menuOpen ? closeIcon : menuIcon} alt="Menu" onClick={toggleMenu} />
       </StyledNav>
       
